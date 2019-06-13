@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_subscribe).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 //注册
                 EventBus.getDefault().register(MainActivity.this);
 

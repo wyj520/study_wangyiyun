@@ -53,7 +53,7 @@ public class EventBus {
      */
     private List<MethodManager> findAnnotationMethod(Object getter) {
         List<MethodManager> methodLists=new ArrayList<>();
-         Class<?> clazz=getter.getClass();//拿到gerter类
+          Class<?> clazz=getter.getClass();//拿到gerter类
           Method[] methods= clazz.getMethods();//拿到该类的所有方法
 
 
